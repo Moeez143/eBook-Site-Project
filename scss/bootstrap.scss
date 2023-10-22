@@ -1,0 +1,57 @@
+//Font 
+$font-family-sans-serif: 'Open Sans' , sans-serif;
+
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+//navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: white;
+$navbar-dark-hover-color: $secondary;
+$navbar-toggler-border-radius: 5px;
+
+// btn
+$myButton-radius: 50px;
+$myButton-padding-x: 25px; 
+$myButton-padding-y: 5px;
+
+$btn-border-radius: $myButton-radius;
+$btn-border-radius-sm: $myButton-radius;
+$btn-border-radius-lg: $myButton-radius;
+
+$btn-padding-x: $myButton-padding-x;
+$btn-padding-x-sm: $myButton-padding-x;
+$btn-padding-x-lg: $myButton-padding-x;
+
+$btn-padding-y: $myButton-padding-y;
+$btn-padding-y-sm: $myButton-padding-y;
+$btn-padding-y-lg: $myButton-padding-y;
+
+// spacer
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+// line height
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer * 1;
+
+// modal
+$myModalLg: 1040px;
+$modal-lg: $myModalLg;
+
+//nagetive margin
+$enable-negative-margins: true;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

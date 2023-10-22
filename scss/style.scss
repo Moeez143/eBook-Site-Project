@@ -1,0 +1,40 @@
+.navbar .btn-outline-light:hover{
+    color: #333;
+}
+
+.navbar-sticky{
+    opacity: 0.8;
+}
+
+.navbar{
+    transition: all 0.9 ease-in-out;
+}
+
+// background image
+.header{
+    background: url('../images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+//download backgorund image
+.download {
+    background: url('../images/download-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+// map 
+.map iframe{
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    border: none;
+}
+
+@media (max-width: 1000px) {
+    .hero .container-image{
+        display: flex;
+        justify-content: center;
+    }
+}
+
